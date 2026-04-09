@@ -1,12 +1,12 @@
-#Syntropy
-
+# **Syntropy**
+```
    _____             __                        
   / ___/__  ______  / /__________  ____  __  __
   \__ \/ / / / __ \/ __/ ___/ __ \/ __ \/ / / /
  ___/ / /_/ / / / / /_/ /  / /_/ / /_/ / /_/ / 
 /____/\__, /_/ /_/\__/_/   \____/ .___/\__, /  
      /____/                    /_/    /____/   
-
+```
 
 
 **Syntropy** is a high-performance framework designed to find **patterns in the chaos** of autonomous agentic execution.
