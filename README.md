@@ -1,9 +1,13 @@
-# _________             __                        
+#Syntropy
+
+   _____             __                        
   / ___/__  ______  / /__________  ____  __  __
   \__ \/ / / / __ \/ __/ ___/ __ \/ __ \/ / / /
  ___/ / /_/ / / / / /_/ /  / /_/ / /_/ / /_/ / 
 /____/\__, /_/ /_/\__/_/   \____/ .___/\__, /  
-     /____/                    /_/    /____/
+     /____/                    /_/    /____/   
+
+
 
 **Syntropy** is a high-performance framework designed to find **patterns in the chaos** of autonomous agentic execution.
 
@@ -24,11 +28,11 @@ In the era of autonomous AI, agentic workflows often descend into a "Chaos Storm
 
 ## 🚀 Core Components
 
-### 💎  (The Container)
+### 💎 `SyntropySandbox` (The Container)
 The foundational layer. A secure, ephemeral, and isolated environment (powered by **E2B**) where agents can execute code, manipulate files, and interact with the world without risking the host system.
 
-### ✨  (The Trigger)
-The engine of execution.  are lightweight, high-velocity agents designed to "ignite" specific tasks, execute logic within a sandbox, and extract the resulting "pattern" (structured data).
+### ✨ `Spark` (The Trigger)
+The engine of execution. `Sparks` are lightweight, high-velocity agents designed to "ignite" specific tasks, execute logic within a sandbox, and extract the resulting "pattern" (structured data).
 
 ---
 
@@ -41,7 +45,14 @@ The engine of execution.  are lightweight, high-velocity agents designed to "ign
 
 ### Installation
 
+```bash
+# Clone the repository
+git clone https://github.com/pukpuklouis/syntropy.git
+cd syntropy
 
+# Install dependencies
+npm install
+```
 
 ### Running the Demo
 
@@ -51,23 +62,23 @@ The engine of execution.  are lightweight, high-velocity agents designed to "ign
    ```
 
 2. Start the development server:
-   
-> syntropy@1.0.0 dev
-> ts-node src/index.ts
+   ```bash
+   npm run dev
+   ```
 
 ---
 
 ## 🛠️ Development
 
 ### Build for Production
-
-> syntropy@1.0.0 build
-> tsc
+```bash
+npm run build
+```
 
 ### Run Compiled Version
-
-> syntropy@1.0.0 start
-> node dist/index.js
+```bash
+npm start
+```
 
 ---
 
